@@ -12,9 +12,7 @@ body {
 .topnav {
     overflow: hidden;
     display: flex;
-    background-color: #04AA6D;
-    background-image: url(/img/banner.jpg);
-    background-position: center center;
+    background-color: #9104aa50;
     background-size: cover;
 }
 
@@ -60,10 +58,8 @@ body {
 
 
 /* HOMEPAGE */
-.title-hp {
-    font-size: 2.5em;
-    text-align: center;
-    color: rgb(29, 36, 98);
+.banner {
+    align-items: center;
     padding: 10%;
 }
 
@@ -168,9 +164,7 @@ body {
     font-size: 1.5em;
     word-spacing: 0.2em;
     color: rgba(255, 4, 4, 0.952);
-    background-color: #04AA6D;
-    background-image: url(/img/banner.jpg);
-    background-position: center center;
+    background-color: #9104aa50;
     background-size: cover;
     padding-top: 2em;
     padding-bottom: 1.5em;
