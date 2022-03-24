@@ -8,8 +8,8 @@
 
     <!-- FILL WITH CONTAIN -->
 
-    <div class="title-hp">
-        SPORT QUEST
+    <div class="banner">
+        <img src="/img/LOGO 1.png">
     </div>
 
     <div class="play-button">
