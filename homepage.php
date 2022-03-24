@@ -9,7 +9,7 @@
     <!-- FILL WITH CONTAIN -->
 
     <div class="banner">
-        <img src="/img/LOGO 1.png">
+        <img src="/img/LOGO1.svg">
     </div>
 
     <div class="play-button">
