@@ -1,7 +1,7 @@
 <div class="footer">
 
 
-    SportQuest Team © <?= date('Y') ?>
+    <img src="/img/LOGO-1.png" style="width: 30%;"> Team © <?= date('Y') ?>
 
 </div>
 
