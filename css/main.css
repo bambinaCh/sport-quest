@@ -14,7 +14,7 @@ body {
 .topnav {
     overflow: hidden;
     display: flex;
-    background-color: #0415ff50;
+    background-color: #00000050;
     background-size: cover;
 }
 
@@ -182,7 +182,7 @@ body {
     font-weight: bold;
     word-spacing: 0.2em;
     color: rgba(0, 0, 0, 0.952);
-    background-color:#0415ff50;
+    background-color:#00000050;
     background-size: cover;
     padding-top: 2em;
     padding-bottom: 1.5em;
