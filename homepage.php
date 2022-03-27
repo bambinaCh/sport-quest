@@ -18,7 +18,7 @@
     </div>
 
     <div class="text">
-        Are you a real sports fan?<br> Start the QUIZ to see how much you know about your favourite sports with SPORT TRIVIA.
+        REAL sports fan?<br> Start the QUIZ to see how much you know about your favourite sports with SPORT TRIVIA.
     </div>
 
     <div class="play-button">
