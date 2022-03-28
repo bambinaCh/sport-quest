@@ -1,12 +1,11 @@
 <?php
 session_start();
 
-/* PLEASE CHANGE 3 WITH THE NUMBER OF THE CORRECT ANSWER OF THE QUESTION BEFORE*/
-if ($_POST["answer"] == 4) {
+
+if ($_POST["answer"] == 2) {
     $_SESSION["score"] += 1;
 }
 ?>
-
 
 <!DOCTYPE html>
 <html lang="en">
@@ -17,30 +16,25 @@ if ($_POST["answer"] == 4) {
   
     <main>
 
-    <div id="ingqimage">
-            <img id="ingoiq" class="responsive" src="img/ingoq1.jpg">
+    <div id="svenimage">
+            <img id="svenimid" class="responsive" src="img/Trophy Women World Cup.jpg">
         </div>
 
         <div class="title">
-            <p id="svenans">QUESTION NUMBER 9</p>
+            <p id="svenans">QUESTION 13</p>
         </div>
 
-        <div class="title">
-            Question 13
-        </div>
-        <div class="question">
-        Which country won the first women’s World Cup in soccer?
+        <div class="question"></div>
+        <p id="svenq">Which country won the first women’s World Cup in soccer?</p>
         </div>
 
         <form class="form" action="question14.php" method="post">
 
-            <button type="submit" class="answer-button answer1" name="answer" value="1">5</button>
-                <p id=
-            <button type="submit" class="answer-button answer2" name="answer" value="2">7</button>
-            <button type="submit" class="answer-button answer3" name="answer" value="3">6</button>
-            <button type="submit" class="answer-button answer4" name="answer" value="4">8</button>
-
-        </form>
+            <button type="submit" class="answer-button answer1" name="answer" value="1"><p id="svenans">Sweden</p></button>
+            <button type="submit" class="answer-button answer2" name="answer" value="2"><p id="svenans">USA</p></button>
+            <button type="submit" class="answer-button answer3" name="answer" value="3"><p id="svenans">Germany</p></button>
+            <button type="submit" class="answer-button answer4" name="answer" value="4"><p id="svenans">Brazil</p></button>
+            </form>
     </main>
     <!-- END CONTENT -->
     <?php include 'inc/footer.php' ?>

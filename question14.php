@@ -1,12 +1,11 @@
 <?php
 session_start();
 
-/* PLEASE CHANGE 3 WITH THE NUMBER OF THE CORRECT ANSWER OF THE QUESTION BEFORE*/
-if ($_POST["answer"] == 4) {
+
+if ($_POST["answer"] == 2) {
     $_SESSION["score"] += 1;
 }
 ?>
-
 
 <!DOCTYPE html>
 <html lang="en">
@@ -14,25 +13,31 @@ if ($_POST["answer"] == 4) {
 
 <body>
     <?php include 'inc/header.php'  ?>
-    <!-- FILL WITH CONTAIN -->
+
     <main>
-        <div class="title">
-            Question 14
+
+    <div id="svenimage">
+            <img id="svenimid" class="responsive" src="img/Hungergames.jpg">
         </div>
+
+        <div class="title">
+            <p id="svenans">Question 14</p>
+        </div>
+
         <div class="question">
-        What is the very center of a target called in archery or darts?
+        <p id="ingq">What is the very center of a target called in archery or darts?</p>
         </div>
 
         <form class="form" action="question15.php" method="post">
 
-            <button type="submit" class="answer-button answer1" name="answer" value="1">5</button>
-            <button type="submit" class="answer-button answer2" name="answer" value="2">7</button>
-            <button type="submit" class="answer-button answer3" name="answer" value="3">6</button>
-            <button type="submit" class="answer-button answer4" name="answer" value="4">8</button>
-
+            <button type="submit" class="answer-button answer1" name="answer" value="1"><p id="svenans">Infield</p></button>
+            <button type="submit" class="answer-button answer2" name="answer" value="2"><p id="svenans">Bullseye</p></button>
+            <button type="submit" class="answer-button answer3" name="answer" value="3"><p id="svenans">Cockpit</p></button>
+            <button type="submit" class="answer-button answer4" name="answer" value="4"><p id="svenans">Goal</p></button>
         </form>
+
     </main>
-    <!-- END CONTENT -->
+
     <?php include 'inc/footer.php' ?>
 </body>
 
