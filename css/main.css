@@ -9,6 +9,24 @@ body {
 
 }
 
+/*BACKGROUND PICTURES*/
+
+.bg-basketball{
+    background-image: url(/img/basketball-bg.png);
+    background-size: cover;
+    
+}
+
+.bg-boxing{
+    background-image: url(/img/boxing-bg.png);
+    background-size: cover;
+    
+}
+.bg-canada{
+    background-image: url(/img/canada-bg.png);
+    background-size: cover;
+    
+}
 .bg-olympics{
     background-image: url(/img/olympics-bg.png);
     background-size: cover;
@@ -19,25 +37,6 @@ body {
     background-size: cover;
     
 }
-
-.bg-basketball{
-    background-image: url(/img/basketball-bg.png);
-    background-size: cover;
-    
-}
-
-.bg-canada{
-    background-image: url(/img/canada-bg.png);
-    background-size: cover;
-    
-}
-
-.bg-boxing{
-    background-image: url(/img/boxing-bg.png);
-    background-size: cover;
-    
-}
-
 .bg-golf{
     background-image: url(/img/golf-bg.png);
     background-size: cover;
@@ -46,6 +45,12 @@ body {
 
 .bg-darts{
     background-image: url(/img/darts-bg.png);
+    background-size: cover;
+    
+}
+
+.bg-tennis{
+    background-image: url(/img/tennis-bg.png);
     background-size: cover;
     
 }
