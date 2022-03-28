@@ -115,19 +115,21 @@ body {
 
 /* QUESTION */
 .title {
-    font-size: 1.2em;
     text-align: center;
-    color: rgb(255, 0, 0);
     padding: 0.5em;
     margin-top: 5em;
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 1.5rem;
 
 }
 
 .question {
     font-size: 1.2em;
     text-align: center;
-    color: rgb(29, 36, 98);
     padding: 0.9em;
+    font-weight: bold;
+    color: #f8e85a;
 }
 
 .form {
@@ -144,8 +146,6 @@ body {
 /* ANSWER BUTTONS*/
 .answer-button {
     text-align: center;
-    color: rgb(0, 0, 0);
-    font-size: 0.8em;
     background-color: rgb(29, 36, 98);
     border: none;
     border-radius: 1.3em;
@@ -154,6 +154,9 @@ body {
     padding-top: 5%;
     padding-bottom: 5%;
     margin: 5%;
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 2rem;
 }
 
 .answer1 {
@@ -200,54 +203,10 @@ body {
 
 
 /* IMAGES*/
-.images {
-    text-align: center;
-    white-space: pre-line;
-}
-
-/* INGO CSS */
-#ingoqn {
-    font-weight: bold;
-    color: #ffffff;
-    font-size: 24px;
-
-}
-
-#ingq{
-    font-weight: bold;
-    color: #f8e85a;
-    font-size: 22px;
-
-}
-
-#ingoa {
-    font-weight: bold;
-    color: #ffffff;
-    font-size: 30px;
-    padding-top: 0.5em;
-
-}
-
-
-#ingqimage {
-    
-    margin-left: auto;
-    margin-right: auto;
+.question-image {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 20px;
     max-width: 80%;
-    height: auto;
-    font-size: 1.2em;
-    text-align: center;
-    padding: 0.5em;
-    
-    
-  }
+    }
 
-  #ingoiq {
-    
-    max-width: 80%;
-    height: auto;
-    font-size: 1.2em;
-    text-align: center;
-    
-    
-  }

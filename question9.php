@@ -8,31 +8,31 @@
     <main>
 
 
-        <div id="ingqimage">
-            <img id="ingoiq" class="responsive" src="img/ingoq1.jpg">
-        </div>
+        
+        <img class="question-image" src="img/ingoq1.jpg">
+        
 
         <div class="title">
-            <p id="ingoa">QUESTION NUMBER 9</p>
+            QUESTION NUMBER 9
         </div>
 
         <div class="question">
-            <p id="ingq">Who is the greatest soccer player, also known as "The King of Soccer"?</p>
+            Who is the greatest soccer player, also known as "The King of Soccer"?
         </div>
 
         <form class="form" action="question10.php" method="post">
 
             <button type="submit" class="answer-button answer1" name="answer" value="1">
-                <p id="ingoa">David Beckham</p>
+                David Beckham
             </button>
             <button type="submit" class="answer-button answer2" name="answer" value="2">
-                <p id="ingoa">Pelé</p>
+                Pelé
             </button>
             <button type="submit" class="answer-button answer3" name="answer" value="3">
-                <p id="ingoa">Diego Maradona</p>
+                Diego Maradona
             </button>
             <button type="submit" class="answer-button answer4" name="answer" value="4">
-                <p id="ingoa">Magico Gonzales</p>
+                Magico Gonzales
             </button>
 
         </form>

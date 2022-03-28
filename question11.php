@@ -7,31 +7,31 @@
     <!-- INGO'S QUESTIONS -->
     <main>
 
-        <div id="ingqimage">
-            <img id="ingoiq" class="responsive" src="img/ingoq3.jpg">
-        </div>
+        
+        <img class="question-image" src="img/ingoq3.jpg">
+        
 
         <div class="title">
-            <p id="ingoa">QUESTION NUMBER 11</p>
+            QUESTION NUMBER 11
         </div>
 
         <div class="question">
-            <p id="ingq">Which golfer won the 2012 and 2014 US Masters?</p>
+            Which golfer won the 2012 and 2014 US Masters?
         </div>
 
         <form class="form" action="question12.php" method="post">
 
             <button type="submit" class="answer-button answer1" name="answer" value="1">
-                <p id="ingoa">Jon Rahm</p>
+                Jon Rahm
             </button>
             <button type="submit" class="answer-button answer2" name="answer" value="2">
-                <p id="ingoa">Viktor Hovland</p>
+                Viktor Hovland
             </button>
             <button type="submit" class="answer-button answer3" name="answer" value="3">
-                <p id="ingoa">Bubba Watson</p>
+                Bubba Watson
             </button>
             <button type="submit" class="answer-button answer4" name="answer" value="4">
-                <p id="ingoa">Patrick Cantlay</p>
+                Patrick Cantlay
             </button>
 
         </form>
