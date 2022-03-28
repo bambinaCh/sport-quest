@@ -19,11 +19,12 @@ if ($_POST["answer"] == 3) {
     <?php include 'inc/header.php'  ?>
     <!-- FILL WITH CONTAIN -->
     <main>
+        <img class="question-image" src="img/olympic-rings.jpg" alt="">
         <div class="title">
             Question 3
         </div>
         <div class="question">
-        What do the rings in the Olympics represent?
+            What do the rings in the Olympics represent?
         </div>
 
         <form class="form" action="question4.php" method="post">

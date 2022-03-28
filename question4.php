@@ -19,11 +19,12 @@ if ($_POST["answer"] == 2) {
     <?php include 'inc/header.php'  ?>
     <!-- FILL WITH CONTAIN -->
     <main>
+        <img class="question-image" src="img/lebron.jpg" alt="">
         <div class="title">
             Question 4
         </div>
         <div class="question">
-        What team does LeBron James play for?
+            What team does James LeBron play for?
         </div>
 
         <form class="form" action="question5.php" method="post">
