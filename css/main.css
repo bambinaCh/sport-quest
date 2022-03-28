@@ -164,6 +164,7 @@ body {
 /* QUESTION */
 .title {
     text-align: center;
+    text-shadow: -2px -2px 0 black, 2px -2px 0 black, -2px 2px 0 black, 2px 2px 0 black;
     padding: 0.4em;
     padding-bottom: 0.1em;
     font-weight: bold;
@@ -175,6 +176,7 @@ body {
 .question {
     font-size: 1.4em;
     text-align: center;
+    text-shadow: -2px -2px 0 black, 2px -2px 0 black, -2px 2px 0 black, 2px 2px 0 black;
     padding: 0.5em;
     padding-top: 0.1em;
     font-weight: bold;
@@ -212,17 +214,17 @@ body {
 }
 
 .answer1 {
-    background-color: #04AA6D;
+    background-color: #d68c2c;
 
 }
 
 .answer2 {
-    background-color: aqua;
+    background-color: rgb(35, 180, 180);
 
 }
 
 .answer3 {
-    background-color: #ffe600;
+    background-color: #bdbb30;
 }
 
 .answer4 {
