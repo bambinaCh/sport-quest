@@ -26,7 +26,7 @@ if ($_POST["answer"] == 2) {
             How many dimples does an average golf ball have?
         </div>
 
-        <form class="form" action="question2.php" method="post">
+        <form class="form" action="question7.php" method="post">
 
             <button type="submit" class="answer-button answer1" name="answer" value="1">128</button>
             <button type="submit" class="answer-button answer2" name="answer" value="2">196</button>

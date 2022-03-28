@@ -26,7 +26,7 @@ if ($_POST["answer"] == 1) {
             The classic 1980 movie called Raging Bull is about which real-life boxer?
         </div>
 
-        <form class="form" action="question2.php" method="post">
+        <form class="form" action="question9.php" method="post">
 
             <button type="submit" class="answer-button answer1" name="answer" value="1">Jack Dempsey</button>
             <button type="submit" class="answer-button answer2" name="answer" value="2">Jake LaMotta</button>
