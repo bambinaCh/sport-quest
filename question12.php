@@ -19,7 +19,7 @@
             <p id="ingq">Which player scored the “Hand of God” goal in a match of the 1986 World Cup?</p>
         </div>
 
-        <form class="form" action="question12.php" method="post">
+        <form class="form" action="question13.php" method="post">
 
             <button type="submit" class="answer-button answer1" name="answer" value="1">
                 <p id="ingoa">Cristiano Ronaldo</p>
