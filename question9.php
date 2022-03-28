@@ -4,17 +4,23 @@
 
 <body>
     <?php include 'inc/header.php'  ?>
-    <!-- FILL WITH CONTAIN -->
+    <!-- INGO'S QUESTIONS -->
     <main>
 
-        <div class="title">
+
+        <div id="ingqimage">
             <img id="ingoiq" class="responsive" src="img/ingoq1.jpg">
         </div>
+
+        <div class="title">
+            <p id="ingoa">QUESTION NUMBER 9</p>
+        </div>
+
         <div class="question">
             <p id="ingq">Who is the greatest soccer player, also known as "The King of Soccer"?</p>
         </div>
 
-        <form class="form" action="question2.php" method="post">
+        <form class="form" action="question10.php" method="post">
 
             <button type="submit" class="answer-button answer1" name="answer" value="1">
                 <p id="ingoa">David Beckham</p>
