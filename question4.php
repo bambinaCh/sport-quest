@@ -15,7 +15,7 @@ if ($_POST["answer"] == 2) {
 <html lang="en">
 <?php include 'inc/head.php' ?>
 
-<body>
+<body class="bg-basketball">
     <?php include 'inc/header.php'  ?>
     <!-- FILL WITH CONTAIN -->
     <main>
