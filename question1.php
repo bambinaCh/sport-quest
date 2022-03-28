@@ -1,3 +1,12 @@
+<?php
+session_start();
+$_SESSION["score"] = 0;
+?>
+
+
+<!--  THIS IS (_Chaimaa_) PAGE -->
+
+
 <!DOCTYPE html>
 <html lang="en">
 <?php include 'inc/head.php' ?>
@@ -11,15 +20,15 @@
             <p>Question 1
         </div>
         <div class="question">
-            How are you?
+        Where did the first ancient Olympic games take place?
         </div>
 
         <form class="form" action="question2.php" method="post">
 
-            <button type="submit" class="answer-button answer1" name="answer" value="1">ANSWER</button>
-            <button type="submit" class="answer-button answer2" name="answer" value="2">ANSWER</button>
-            <button type="submit" class="answer-button answer3" name="answer" value="3">ANSWER</button>
-            <button type="submit" class="answer-button answer4" name="answer" value="4">ANSWER</button>
+            <button type="submit" class="answer-button answer1" name="answer" value="1">Italy</button>
+            <button type="submit" class="answer-button answer2" name="answer" value="2">France</button>
+            <button type="submit" class="answer-button answer3" name="answer" value="3">Egypt</button>
+            <button type="submit" class="answer-button answer4" name="answer" value="4">Greece</button>
 
         </form>
 
