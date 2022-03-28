@@ -204,3 +204,23 @@ body {
     text-align: center;
     white-space: pre-line;
 }
+
+#ingq{
+    font-weight: bold;
+    color: #f8e85a;
+    font-size: 22px;
+
+}
+
+#ingoa {
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 22px;
+
+}
+
+
+#ingoiq {
+    max-width: 80%;
+    height: auto;
+  }
