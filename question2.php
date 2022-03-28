@@ -2,13 +2,13 @@
 session_start();
 
 /* PLEASE CHANGE 3 WITH THE NUMBER OF THE CORRECT ANSWER OF THE QUESTION BEFORE*/
-if ($_POST["answer"] == 3) {
+if ($_POST["answer"] == 4) {
     $_SESSION["score"] += 1;
 }
 ?>
 
 
-<!--  THIS IS (_fill with name_) PAGE -->
+<!--  THIS IS (_Chaimaa_) PAGE -->
 
 
 <!DOCTYPE html>
@@ -23,15 +23,15 @@ if ($_POST["answer"] == 3) {
             Question 2
         </div>
         <div class="question">
-            How are you?
+        How much Ballon d'Or has Messi won?
         </div>
 
-        <form class="form" action="question2.php" method="post">
+        <form class="form" action="question3.php" method="post">
 
-            <button type="submit" class="answer-button answer1" name="answer" value="1">ANSWER</button>
-            <button type="submit" class="answer-button answer2" name="answer" value="2">ANSWER</button>
-            <button type="submit" class="answer-button answer3" name="answer" value="3">ANSWER</button>
-            <button type="submit" class="answer-button answer4" name="answer" value="4">ANSWER</button>
+            <button type="submit" class="answer-button answer1" name="answer" value="1">5</button>
+            <button type="submit" class="answer-button answer2" name="answer" value="2">7</button>
+            <button type="submit" class="answer-button answer3" name="answer" value="3">6</button>
+            <button type="submit" class="answer-button answer4" name="answer" value="4">8</button>
 
         </form>
     </main>
