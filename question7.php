@@ -26,7 +26,7 @@ if ($_POST["answer"] == 4) {
             What country has competed the most times in the Summer Olympics yet hasn’t won a gold medal
         </div>
 
-        <form class="form" action="question2.php" method="post">
+        <form class="form" action="question8.php" method="post">
 
             <button type="submit" class="answer-button answer1" name="answer" value="1">The Philippines</button>
             <button type="submit" class="answer-button answer2" name="answer" value="2">Thailand</button>

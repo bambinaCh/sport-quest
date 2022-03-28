@@ -6,7 +6,6 @@ if ($_POST["answer"] == 3) { // TODO
     $_SESSION["score"] += 1;
 }
 ?>
-:
 
 <!--  THIS IS (_ralph_) PAGE -->
 
@@ -26,7 +25,7 @@ if ($_POST["answer"] == 3) { // TODO
             What’s the national sport of Canada?
         </div>
 
-        <form class="form" action="question2.php" method="post">
+        <form class="form" action="question6.php" method="post">
 
             <button type="submit" class="answer-button answer1" name="answer" value="1">Polo</button>
             <button type="submit" class="answer-button answer2" name="answer" value="2">Lacrosse</button>
