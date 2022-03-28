@@ -1,6 +1,7 @@
 <?php
 session_start();
 
+
 if ($_POST["answer"] == 1) {
     $_SESSION["score"] += 1;
 }
@@ -9,6 +10,7 @@ if ($_POST["answer"] == 1) {
 <!DOCTYPE html>
 <html lang="en">
 <?php include 'inc/head.php' ?>
+
 
 <body class=><?php include 'inc/header.php'  ?>
    

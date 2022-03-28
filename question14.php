@@ -1,6 +1,7 @@
 <?php
 session_start();
 
+
 if ($_POST["answer"] == 4) {
     $_SESSION["score"] += 1;
 }
@@ -27,7 +28,7 @@ if ($_POST["answer"] == 4) {
         </form>
 
     </main>
-    
+
     <?php include 'inc/footer.php' ?>
 </body>
 

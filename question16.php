@@ -25,7 +25,7 @@ if ($_POST["answer"] == 2) {
             <button type="submit" class="answer-button answer3" name="answer" value="3">Karl "The Mailman" Malone</button>
             <button type="submit" class="answer-button answer4" name="answer" value="4">Wilt "The Big Dipper" Chamberlain</button>
         </form>
-    
+
     </main>
    
     <?php include 'inc/footer.php' ?>

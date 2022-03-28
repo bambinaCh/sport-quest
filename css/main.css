@@ -3,6 +3,7 @@ body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
     background-color: rgba(160, 170, 100, 0.863);
+    background-position: center;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
@@ -35,6 +36,7 @@ body {
 .bg-football{
     background-image: url(/img/football-bg.png);
     background-size: cover;
+
     
 }
 .bg-golf{
@@ -162,18 +164,21 @@ body {
 /* QUESTION */
 .title {
     text-align: center;
-    padding: 0.5em;
-    margin-top: 5em;
+    text-shadow: -2px -2px 0 black, 2px -2px 0 black, -2px 2px 0 black, 2px 2px 0 black;
+    padding: 0.4em;
+    padding-bottom: 0.1em;
     font-weight: bold;
     color: #ffffff;
-    font-size: 1.5rem;
+    font-size: 1rem;
 
 }
 
 .question {
-    font-size: 1.2em;
+    font-size: 1.4em;
     text-align: center;
-    padding: 0.9em;
+    text-shadow: -2px -2px 0 black, 2px -2px 0 black, -2px 2px 0 black, 2px 2px 0 black;
+    padding: 0.5em;
+    padding-top: 0.1em;
     font-weight: bold;
     color: #f8e85a;
 }
@@ -195,28 +200,31 @@ body {
     background-color: rgb(29, 36, 98);
     border: none;
     border-radius: 1.3em;
-    padding-left: 8%;
-    padding-right: 8%;
-    padding-top: 5%;
-    padding-bottom: 5%;
-    margin: 5%;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    margin: 2%;
+    margin-left: auto;
+    margin-right: auto;
     font-weight: bold;
     color: #ffffff;
-    font-size: 2rem;
+    font-size: 1.3rem;
+    width: 20.0rem;
 }
 
 .answer1 {
-    background-color: #04AA6D;
+    background-color: #d68c2c;
 
 }
 
 .answer2 {
-    background-color: aqua;
+    background-color: rgb(35, 180, 180);
 
 }
 
 .answer3 {
-    background-color: #ffe600;
+    background-color: #bdbb30;
 }
 
 .answer4 {
@@ -254,5 +262,6 @@ body {
     margin-right: 10%;
     margin-top: 20px;
     max-width: 80%;
-    }
+    min-width: 80%;
+}
 

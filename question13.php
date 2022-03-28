@@ -1,6 +1,7 @@
 <?php
 session_start();
 
+
 if ($_POST["answer"] == 3) {
     $_SESSION["score"] += 1;
 }

@@ -15,10 +15,11 @@ if ($_POST["answer"] == 4) {
 <html lang="en">
 <?php include 'inc/head.php' ?>
 
-<body>
+<body class="bg-olympics">
     <?php include 'inc/header.php'  ?>
     <!-- FILL WITH CONTAIN -->
     <main>
+        <img class="question-image" src="img/q7-image.jpg" alt="">
         <div class="title">
             Question 7
         </div>
