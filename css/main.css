@@ -35,6 +35,7 @@ body {
 .bg-football{
     background-image: url(/img/football-bg.png);
     background-size: cover;
+    align-self: center;
     
 }
 .bg-golf{
