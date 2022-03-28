@@ -205,6 +205,14 @@ body {
     white-space: pre-line;
 }
 
+/* INGO CSS */
+#ingoqn {
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 24px;
+
+}
+
 #ingq{
     font-weight: bold;
     color: #f8e85a;
@@ -215,12 +223,29 @@ body {
 #ingoa {
     font-weight: bold;
     color: #ffffff;
-    font-size: 22px;
+    font-size: 30px;
+    padding-top: 0.5em;
 
 }
 
 
-#ingoiq {
+#ingqimage {
+    margin
     max-width: 80%;
     height: auto;
+    font-size: 1.2em;
+    text-align: center;
+    padding: 0.5em;
+    margin-top: 5em;
+    
+  }
+
+  #ingoiq {
+    align-items: center;
+    max-width: 80%;
+    height: auto;
+    font-size: 1.2em;
+    text-align: center;
+    
+    
   }
