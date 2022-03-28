@@ -19,6 +19,7 @@ if ($_POST["answer"] == 4) {
     <?php include 'inc/header.php'  ?>
     <!-- FILL WITH CONTAIN -->
     <main>
+    <img class="question-image" src="img/messi.jpg" alt="">
         <div class="title">
             Question 2
         </div>
