@@ -15,7 +15,7 @@ if ($_POST["answer"] == 4) {
 <html lang="en">
 <?php include 'inc/head.php' ?>
 
-<body>
+<body class="bg-football">
     <?php include 'inc/header.php'  ?>
     <!-- FILL WITH CONTAIN -->
     <main>
