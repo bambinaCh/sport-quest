@@ -15,10 +15,11 @@ if ($_POST["answer"] == 1) {
 <html lang="en">
 <?php include 'inc/head.php' ?>
 
-<body>
+<body class="bg-boxing">
     <?php include 'inc/header.php'  ?>
     <!-- FILL WITH CONTAIN -->
     <main>
+        <img class="question-image" src="img/q8-image.jpg" alt="">
         <div class="title">
             Question 8
         </div>
