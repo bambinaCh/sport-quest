@@ -18,7 +18,7 @@
     </div>
 
     <div class="text">
-        REAL sports fan?<br> How much you know about your favourite Sports?
+        REAL sports fan?<br> See how much you know about your favourite Sports!
     </div>
 
     <div class="play-button">
