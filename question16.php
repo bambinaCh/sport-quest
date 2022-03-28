@@ -1,7 +1,7 @@
 <?php
 session_start();
 
-if ($_POST["answer"] == 4) {
+if ($_POST["answer"] == 2) {
     $_SESSION["score"] += 1;
 }
 ?>
@@ -10,32 +10,24 @@ if ($_POST["answer"] == 4) {
 <html lang="en">
 <?php include 'inc/head.php' ?>
 
-<body>
-    <?php include 'inc/header.php'  ?>
-
+<body class=><?php include 'inc/header.php'  ?>
+    
     <main>
-
-    <div id="svenimage">
-            <img id="svenimid" class="responsive" src="img/basketball.jpg">
-        </div>
-   
-        <div class="title">
-        <p id="svenans">Question 16</p>
-        </div>
-
-        <div class="question">
-        <p id="svenq">Which basketball player was Michael Jordan nicknamed after when he was in high school?</p>
+        <img class="question-image" src="img/basketball.jpeg">    
+            
+        <div class="title"><p id="svenans">QUESTION 16</p>
+        Which basketball player was Michael Jordan nicknamed after when he was in high school?
         </div>
 
         <form class="form" action="question16.php" method="post">
+            <button type="submit" class="answer-button answer1" name="answer" value="1">Hakeem "The Dream" Olajuwon</button>
+            <button type="submit" class="answer-button answer2" name="answer" value="2">Earvin "Magic" Johnson Jr.</button>
+            <button type="submit" class="answer-button answer3" name="answer" value="3">Karl "The Mailman" Malone</button>
+            <button type="submit" class="answer-button answer4" name="answer" value="4">Wilt "The Big Dipper" Chamberlain</button>
+        </form>
 
-            <button type="submit" class="answer-button answer1" name="answer" value="1"><p id="svenans">Hakeem "The Dream" Olajuwon</p></button>
-            <button type="submit" class="answer-button answer2" name="answer" value="2"><p id="svenans">Karl "The Mailman" Malone</p></button>
-            <button type="submit" class="answer-button answer3" name="answer" value="3"><p id="svenans">Wilt "The Big Dipper" Chamberlain</p></button>
-            <button type="submit" class="answer-button answer4" name="answer" value="4"><p id="svenans">Earvin "Magic" Johnson Jr.</p></button>
-            </form>
     </main>
-    <!-- END CONTENT -->
+   
     <?php include 'inc/footer.php' ?>
 </body>
 
