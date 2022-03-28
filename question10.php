@@ -2,7 +2,7 @@
 <html lang="en">
 <?php include 'inc/head.php' ?>
 
-<body>
+<body class="bg-basketball">
     <?php include 'inc/header.php'  ?>
     <!-- INGO'S QUESTIONS -->
     <main>
@@ -12,7 +12,7 @@
         
 
         <div class="title">
-            QUESTION NUMBER 10
+            QUESTION 10
         </div>
 
         <div class="question">
