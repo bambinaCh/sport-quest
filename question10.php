@@ -7,31 +7,31 @@
     <!-- INGO'S QUESTIONS -->
     <main>
 
-        <div id="ingqimage">
-            <img id="ingoiq" class="responsive" src="img/ingoq2.jpg">
-        </div>
+        
+        <img class="question-image" src="img/ingoq2.jpg">
+        
 
         <div class="title">
-            <p id="ingoa">QUESTION NUMBER 10</p>
+            QUESTION NUMBER 10
         </div>
 
         <div class="question">
-            <p id="ingq">When was Basketball made?</p>
+            When was Basketball made?
         </div>
 
         <form class="form" action="question11.php" method="post">
 
             <button type="submit" class="answer-button answer1" name="answer" value="1">
-                <p id="ingoa">1737</p>
+                1737
             </button>
             <button type="submit" class="answer-button answer2" name="answer" value="2">
-                <p id="ingoa">1974</p>
+                1974
             </button>
             <button type="submit" class="answer-button answer3" name="answer" value="3">
-                <p id="ingoa">1891</p>
+                1891
             </button>
             <button type="submit" class="answer-button answer4" name="answer" value="4">
-                <p id="ingoa">1987</p>
+                1987
             </button>
 
         </form>

@@ -7,31 +7,31 @@
     <!-- INGO'S QUESTIONS -->
     <main>
 
-        <div id="ingqimage">
-            <img id="ingoiq" class="responsive" src="img/ingoq4.jpg">
-        </div>
+        
+        <img class="question-image" src="img/ingoq4.jpg">
+        
 
         <div class="title">
-            <p id="ingoqn">QUESTION NUMBER 12</p>
+            QUESTION NUMBER 12
         </div>
 
         <div class="question">
-            <p id="ingq">Which player scored the “Hand of God” goal in a match of the 1986 World Cup?</p>
+            Which player scored the “Hand of God” goal in a match of the 1986 World Cup?
         </div>
 
-        <form class="form" action="question12.php" method="post">
+        <form class="form" action="question13.php" method="post">
 
             <button type="submit" class="answer-button answer1" name="answer" value="1">
-                <p id="ingoa">Cristiano Ronaldo</p>
+                Cristiano Ronaldo
             </button>
             <button type="submit" class="answer-button answer2" name="answer" value="2">
-                <p id="ingoa">Lionel Messi</p>
+                Lionel Messi
             </button>
             <button type="submit" class="answer-button answer3" name="answer" value="3">
-                <p id="ingoa">Diego Maradona</p>
+                Diego Maradona
             </button>
             <button type="submit" class="answer-button answer4" name="answer" value="4">
-                <p id="ingoa">Fito Zelaya</p>
+                Fito Zelaya
             </button>
 
         </form>
