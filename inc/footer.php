@@ -1,7 +1,7 @@
 <!--  THIS IS (_Chaimaa_) PAGE -->
-<div class="footer">
+<footer>
+  <img src="/img/LOGO-1.png"> Team © <?= date('Y') ?>
 
-    <img src="/img/LOGO-1.png" style="width: 30%;"> Team © <?= date('Y') ?>
+</footer>
 
-</div>
 

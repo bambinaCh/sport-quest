@@ -15,12 +15,12 @@ $_SESSION["score"] = 0;
     <?php include 'inc/header.php'  ?>
     <!-- FILL WITH CONTAIN -->
     <main>
-    <img class="question-image" src="img/greece.jpeg" alt="">
+        <img class="question-image" src="img/greece.jpeg" alt="">
         <div class="title">
             <p>Question 1
         </div>
         <div class="question">
-        Where did the first ancient Olympic games take place?
+            Where did the first ancient Olympic games take place?
         </div>
 
         <form class="form" action="question2.php" method="post">

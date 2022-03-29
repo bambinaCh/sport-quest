@@ -1,12 +1,14 @@
 @font-face {
-	font-family: ramabhadra;
-	src: url('../fonts/ramabhadra/Ramabhadra-Regular.ttf');
+    font-family: ramabhadra;
+    src: url('../fonts/ramabhadra/Ramabhadra-Regular.ttf');
 }
 
 @font-face {
     font-family: baby-monsta;
     src: url('../fonts/baby-monsta/BabyMonsta-lgGgX.ttf');
 }
+
+
 
 /* BODY */
 body {
@@ -19,52 +21,70 @@ body {
     min-height: 100vh;
 
 }
+/*HEADER*/
+header{
+    height: 60px;
+    margin-bottom: 20px;
+}
+
+main {
+    max-width: 300px;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+
+}
 
 /*BACKGROUND PICTURES*/
 
-.bg-basketball{
+.bg-basketball {
     background-image: url(/img/basketball-bg.png);
     background-size: cover;
-    
+
 }
 
-.bg-boxing{
+.bg-boxing {
     background-image: url(/img/boxing-bg.png);
     background-size: cover;
-    
+
 }
-.bg-canada{
+
+.bg-canada {
     background-image: url(/img/canada-bg.png);
     background-size: cover;
-    
+
 }
-.bg-olympics{
+
+.bg-olympics {
     background-image: url(/img/olympics-bg.png);
     background-size: cover;
-    
+
 }
-.bg-football{
+
+.bg-football {
     background-image: url(/img/football-bg.png);
     background-size: cover;
 
-    
+
 }
-.bg-golf{
+
+.bg-golf {
     background-image: url(/img/golf-bg.png);
     background-size: cover;
-    
+
 }
 
-.bg-darts{
+.bg-darts {
     background-image: url(/img/darts-bg.png);
     background-size: cover;
-    
+
 }
 
-.bg-tennis{
+.bg-tennis {
     background-image: url(/img/tennis-bg.png);
     background-size: cover;
-    
+
 }
 
 /* NAV BAR */
@@ -142,8 +162,10 @@ body {
 .text {
     font-size: 1.8em;
     text-align: center;
-    color: rgb(0, 0, 0);
+    font-family: baby-monsta;
+    color: rgb(255, 255, 255);
     font-weight: bold;
+    text-shadow: -1.5px -1.5px 0 black, 1.5px -1.5px 0 black, -1.5px 1.5px 0 black, 1.5px 1.5px 0 black;
     padding: 5%;
     padding-top: 10%;
     padding-bottom: 10%;
@@ -151,48 +173,29 @@ body {
 }
 
 
-
-/*PLAY BUTTON*/
-.play-button {
-    background-color: rgb(255, 210, 10);
-    text-align: center;
-    border-radius: 1em;
-    padding: 2.5%;
-    margin: 5%;
-    
-}
-
-.play-button-text {
-    font-size: 1.5em;
-    color: rgb(248, 0, 153);
-    text-decoration: none;
-    text-align: center;
-}
-
-
-
 /* QUESTION */
 .title {
     text-align: center;
     text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
     padding: 0.4em;
-    padding-bottom: 0.1em;
+    padding-bottom: 0em;
     font-weight: bold;
     color: #fdfb93;
     font-size: 1.2rem;
-    font-family: ramabhadra;
+    font-family: baby-monsta;
+    letter-spacing: 1px;
 
 }
 
 .question {
-    font-size: 1.4em;
+    font-size: 1.5em;
     text-align: center;
-    text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+    text-shadow: -1.5px -1.5px 0 black, 1.5px -1.5px 0 black, -1.5px 1.5px 0 black, 1.5px 1.5px 0 black;
     padding: 0.5em;
-    padding-top: 0.1em;
+    padding-top: 0em;
     font-weight: bold;
     color: #ffffff;
-    font-family: baby monsta;
+    font-family: baby-monsta;
     letter-spacing: 1px;
 }
 
@@ -210,25 +213,24 @@ body {
 /* ANSWER BUTTONS*/
 .answer-button {
     text-align: center;
-    background-color: rgb(29, 36, 98);
+    width: 100%;
+    background-color: rgb(214, 159, 6);
     border: none;
-    border-radius: 1.3em;
-    padding-left: 2%;
-    padding-right: 2%;
+    border-radius: 0.8rem;
+    padding-left: 50px;
+    padding-right: 50px;
     padding-top: 3%;
     padding-bottom: 3%;
-    margin: 2%;
-    margin-left: auto;
-    margin-right: auto;
     font-weight: bold;
     color: #ffffff;
-    font-size: 1.9rem;
-    width: 20.0rem;
+    font-size: 1.5rem;
     font-family: ramabhadra;
     text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
     letter-spacing: 1px;
-    box-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;   
-    
+    text-decoration: none;
+    margin-bottom: 20px;
+
+
 }
 
 .answer1 {
@@ -251,24 +253,27 @@ body {
 
 
 /* FOOTER */
-.footer {
-    text-align: center;
-    font-size: 1.5em;
+footer {
+    font-size: 1.5rem;
     font-weight: bold;
-    word-spacing: 0.2em;
+    word-spacing: 0.2rem;
     color: rgba(0, 0, 0, 0.952);
-    background-color:#00000050;
-    background-size: cover;
-    padding-top: 2em;
-    padding-bottom: 1.5em;
+    background-color: #00000050;
     margin-top: auto;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
 
 }
 
+footer img{
+   height: 40px ;
+}
 
 /*RESULT*/
-.title-rp{
+.title-rp {
     text-align: center;
     text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
     padding: 0.4em;
@@ -279,7 +284,7 @@ body {
     font-family: ramabhadra;
 }
 
-.score-rp{
+.score-rp {
     font-size: 2.5em;
     text-align: center;
     text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
@@ -303,4 +308,3 @@ body {
     max-width: 80%;
     min-width: 80%;
 }
-
