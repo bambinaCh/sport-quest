@@ -2,7 +2,7 @@
 session_start();
 
 
-if ($_POST["answer"] == 4) {
+if ($_POST["answer"] == 3) {
     $_SESSION["score"] += 1;
 }
 ?>
@@ -11,16 +11,19 @@ if ($_POST["answer"] == 4) {
 <html lang="en">
 <?php include 'inc/head.php' ?>
 
-<body class=><?php include 'inc/header.php'  ?>
+<body class="bg-olympics">
+    <?php include 'inc/header.php' ?>
     
     <main>
-        <img class="question-image" src="img/Hungergames.jpg">
+        <img class="question-image" src="img/Hungergames.jpg" alt="">
         
-        <div class="title"><p id="svenans">QUESTION 14</p>
-        What is the very center of a target called in archery or darts?
+        <div class="title">QUESTION 14
         </div>
         
-        <form class="form" action="question14.php" method="post">
+        <div class="question">What is the very center of a target called in archery or darts?
+        </div>
+        
+        <form class="form" action="question15.php" method="post">
             <button type="submit" class="answer-button answer1" name="answer" value="1">Cockpit</button>
             <button type="submit" class="answer-button answer2" name="answer" value="2">Infield</button>
             <button type="submit" class="answer-button answer3" name="answer" value="3">Goal</button>
