@@ -7,6 +7,8 @@ if ($_POST["answer"] == 4) {
 }
 ?>
 
+<!--  THIS IS (_Sven_) PAGE -->
+
 <!DOCTYPE html>
 <html lang="en">
 <?php include 'inc/head.php' ?>

@@ -16,7 +16,7 @@
         </div>
 
         <div class="question">
-            When was Basketball made?
+            When was Basketball invented?
         </div>
 
         <form class="form" action="question11.php" method="post">
