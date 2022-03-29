@@ -6,6 +6,8 @@ if ($_POST["answer"] == 1) {
 }
 ?>
 
+<!--  THIS IS (_Sven_) PAGE -->
+
 <!DOCTYPE html>
 <html lang="en">
 <?php include 'inc/head.php' ?>
@@ -16,7 +18,7 @@ if ($_POST["answer"] == 1) {
     <main>
         <img class="question-image" src="img/basketball.jpeg" alt="">    
             
-        <div class="title">QUESTION 17
+        <div class="title">QUESTION 16
         </div>
         
         <div class="question">Which basketball player was Michael Jordan nicknamed after when he was in high school?

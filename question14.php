@@ -7,9 +7,12 @@ if ($_POST["answer"] == 3) {
 }
 ?>
 
+<!--  THIS IS (_Sven_) PAGE -->
+
 <!DOCTYPE html>
 <html lang="en">
 <?php include 'inc/head.php' ?>
+
 
 <body class="bg-darts">
     <?php include 'inc/header.php' ?>
