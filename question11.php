@@ -1,3 +1,11 @@
+<?php
+session_start();
+
+if ($_POST["answer"] == 3) {
+    $_SESSION["score"] += 1;
+}
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <?php include 'inc/head.php' ?>
