@@ -10,7 +10,7 @@ if ($_POST["answer"] == 1) {
 <html lang="en">
 <?php include 'inc/head.php' ?>
 
-<body class="bg-olympics">
+<body class="bg-basketball">
     <?php include 'inc/header.php' ?>
     
     <main>

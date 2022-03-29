@@ -11,7 +11,7 @@ if ($_POST["answer"] == 3) {
 <html lang="en">
 <?php include 'inc/head.php' ?>
 
-<body class="bg-olympics">
+<body class="bg-football">
     <?php include 'inc/header.php' ?>
   
     <main>

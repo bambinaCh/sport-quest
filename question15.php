@@ -19,7 +19,8 @@ if ($_POST["answer"] == 4) {
         <img class="question-image" src="img/heart.jpg" alt="">
         
         <div class="title">QUESTION 15</div>
-        In what game is “love” a score?
+        
+        <div class="question">In what game is “love” a score?
         </div>
 
         <form class="form" action="question16.php" method="post">
