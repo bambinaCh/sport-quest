@@ -27,7 +27,7 @@ if ($_POST["answer"] == 2) {
 
         <form class="form" action="question18.php" method="post">
 
-            <button type="submit" class="answer-button answer1" name="answer" value="1">Golden medals</button>
+            <button type="submit" class="answer-button answer1" name="answer" value="1">Gold medals</button>
             <button type="submit" class="answer-button answer2" name="answer" value="2">Bronze medals</button>
             <button type="submit" class="answer-button answer3" name="answer" value="3">Silver medals</button>
             <button type="submit" class="answer-button answer4" name="answer" value="4">Copper medals</button>
