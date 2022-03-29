@@ -275,12 +275,12 @@ body {
     padding-bottom: 0.1em;
     font-weight: bold;
     color: #fdfb93;
-    font-size: 1.2rem;
+    font-size: 1.8rem;
     font-family: ramabhadra;
 }
 
 .score-rp{
-    font-size: 1.4em;
+    font-size: 2.5em;
     text-align: center;
     text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
     padding: 0.5em;

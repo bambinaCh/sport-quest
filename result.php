@@ -18,20 +18,22 @@ if ($_POST["answer"] == 1) { // TODO
     <?php include 'inc/header.php'  ?>
     <!-- FILL WITH CONTAIN -->
     <main>
-       
+        <video autoplay muted loop id="myVideo">
+            <source src="/img/result-bg.mp4" type="video/mp4">
+        </video>
 
         <div class="title-rp">
             SUMMARY
         </div>
 
         <div class="score-rp">
-            YOUR SCORE IS <?php echo $_SESSION["score"];?>/20 POINTS!
+            YOUR SCORE IS <?php echo $_SESSION["score"]; ?>/20 POINTS!
         </div>
-        
+
 
         <div class="play-button">
-        <a class="play-button-text" href="question1.php">PLAY AGAIN</a>
-    </div>
+            <a class="play-button-text" href="question1.php">PLAY AGAIN</a>
+        </div>
     </main>
     <!-- END CONTENT -->
     <?php include 'inc/footer.php' ?>
