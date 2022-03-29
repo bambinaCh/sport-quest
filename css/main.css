@@ -258,7 +258,28 @@ body {
 
 
 /*RESULT*/
+.title-rp{
+    text-align: center;
+    text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+    padding: 0.4em;
+    padding-bottom: 0.1em;
+    font-weight: bold;
+    color: #fdfb93;
+    font-size: 1.2rem;
+    font-family: ramabhadra;
+}
 
+.score-rp{
+    font-size: 1.4em;
+    text-align: center;
+    text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+    padding: 0.5em;
+    padding-top: 0.1em;
+    font-weight: bold;
+    color: #ffffff;
+    font-family: baby monsta;
+    letter-spacing: 1px;
+}
 
 
 

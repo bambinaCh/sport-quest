@@ -20,12 +20,12 @@ if ($_POST["answer"] == 1) { // TODO
     <main>
        
 
-        <div class="question">
-            CONGRATULATIONS
+        <div class="title-rp">
+            SUMMARY
         </div>
 
-        <div class="question">
-            YOUR SCORE IS <?php echo $_SESSION["score"];?>/20 !
+        <div class="score-rp">
+            YOUR SCORE IS <?php echo $_SESSION["score"];?>/20 POINTS!
         </div>
         
 
