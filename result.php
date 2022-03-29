@@ -2,7 +2,7 @@
 session_start();
 
 /* PLEASE CHANGE 3 WITH THE NUMBER OF THE CORRECT ANSWER OF THE QUESTION BEFORE*/
-if ($_POST["answer"] == 3) { // TODO
+if ($_POST["answer"] == 1) { // TODO
     $_SESSION["score"] += 1;
 }
 ?>
