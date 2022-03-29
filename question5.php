@@ -30,7 +30,7 @@ if ($_POST["answer"] == 3) { // TODO
 
             <button type="submit" class="answer-button answer1" name="answer" value="1">Polo</button>
             <button type="submit" class="answer-button answer2" name="answer" value="2">Lacrosse</button>
-            <button type="submit" class="answer-button answer3" name="answer" value="3">Hokey</button>
+            <button type="submit" class="answer-button answer3" name="answer" value="3">Baseball</button>
             <button type="submit" class="answer-button answer4" name="answer" value="4">Golf</button>
 
         </form>
