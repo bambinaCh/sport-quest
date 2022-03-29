@@ -31,9 +31,9 @@ if ($_POST["answer"] == 1) { // TODO
         </div>
 
 
-        <div class="play-button">
-            <a class="play-button-text" href="question1.php">PLAY AGAIN</a>
-        </div>
+
+        <a class="answer-button" href="question1.php">PLAY AGAIN</a>
+
     </main>
     <!-- END CONTENT -->
     <?php include 'inc/footer.php' ?>
