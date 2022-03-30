@@ -10,12 +10,12 @@ $_SESSION["points-1"] = $_POST["points"];
 <html lang="en">
 <?php include '../inc/head.php' ?>
 
-<body class="bg-olympics">
+<body class="bg-kids">
     
 <?php include '../inc/header.php'?>
        
     <main>
-        <img class="question-image" src="img/greece.jpeg" alt="">
+        <img class="question-image" src="../img/rings.jpg" alt="">
         
         <div class="title">Question 2</div>
         
