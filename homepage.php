@@ -22,9 +22,10 @@
             REAL sports fan?<br> See how much you know about sports!
         </div>
 
-        
-            <a class="answer-button" href="question1.php"><strong>START QUIZ</strong></a>
-        
+
+        <a class="answer-button" href="question1.php"><strong>START QUIZ</strong></a>
+        <a class="answer-button" href="/kidz-quiz/question1.php"><strong>KIDZ QUIZ</strong></a>
+
 
     </main>
 
