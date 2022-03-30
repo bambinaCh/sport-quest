@@ -17,11 +17,11 @@ $_SESSION["points-2"] = $_POST["points"];
         <form class="form" action="question4.php" method="post" id="aForm">
             <div>
                 <input type="checkbox" name="" id="cb1">
-                <label for="cb1">This is a checkbox</label>
+                <label for="cb1">This is Baseball</label>
             </div>
             <div>
                 <input type="checkbox" name="" id="cb2">
-                <label for="cb2">This isn't a checkbox</label> <br>
+                <label for="cb2">This is Cricket</label> <br>
             </div>
             <button type="submit" class="next-button">Next</button>
             <div id="bugger" class="warning"></div>
