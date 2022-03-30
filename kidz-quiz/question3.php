@@ -1,6 +1,6 @@
 <?php
 session_start();
-$_SESSION["score"] = 0;
+$_SESSION["points-2"] = $_POST["points"];
 ?>
 
 <!--  THIS IS (_ralph_) PAGE -->
@@ -25,6 +25,7 @@ $_SESSION["score"] = 0;
             </div>
             <button type="submit" class="next-button">Next</button>
             <div id="bugger" class="warning"></div>
+            <input type="hidden" name="points" id="tally" value="0">
         </form>
         <script src="js/validation3.js"></script>
     </main>
