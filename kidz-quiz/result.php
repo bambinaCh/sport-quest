@@ -15,12 +15,9 @@ $points = (int)$_SESSION["points-1"]
 <html lang="en">
 <?php include '../inc/head.php' ?>
 
-<body class="bg-result">
+<body class="bg-kids">
     <?php include '../inc/header.php'  ?>
     <main>
-        <video autoplay muted loop id="myVideo">
-            <source src="/img/result-bg.mp4" type="video/mp4">
-        </video>
         <div class="title-rp">
             SUMMARY
         </div>
