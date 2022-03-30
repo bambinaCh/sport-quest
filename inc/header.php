@@ -7,6 +7,7 @@
                 <?php
                 $menuItems = array(
                     array("/question1.php", "Quiz"),
+                    array("/kidz-quiz/question1.php", "Kidz Quiz"),
 
                 );
                 foreach ($menuItems as $item) {
