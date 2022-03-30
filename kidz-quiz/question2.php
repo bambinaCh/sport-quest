@@ -11,7 +11,8 @@ $_SESSION["score"] = 0;
 <?php include '../inc/head.php' ?>
 
 <body class="bg-olympics">
-    <?php include '../inc/header.php'?>
+    
+<?php include '../inc/header.php'?>
        
     <main>
         <img class="question-image" src="img/greece.jpeg" alt="">
@@ -22,7 +23,7 @@ $_SESSION["score"] = 0;
         When an Olympic athlete wins first place, what color medal do they get?
         </div>
 
-<form class="form" action="question2.php" method="post">
+        <form action="/kidz-quiz/question3.php" method="post" onsubmit="return validateRadio();">
 
     <form id="butt1"><input type="radio" id= "butt1_Leather" value="Leather" checked>
     <label for = "butt1_Leather" >Leather</label>
@@ -32,14 +33,21 @@ $_SESSION["score"] = 0;
     <label for = "form3_no" >Silver</label>
     <form id="butt4"><input type="radio" id= "butt4_Bronze" value="Bronze" checked>
     <label for = "butt4" >Bronze</label>
-    </form> 
 
-<form action="question2.php" method="post" onsubmit="return validateRadio('single-choice');">
-</form>
+        <p id="validation-warning" class="warning"></p>
 
+        <button type="submit" class="next-button">Next</button><div id="bugger" class="warning"></div>
+    </form>
 </main>
 
-<?php include '../inc/footer.php' ?>
+
+<input type="hidden" name="lastPageID" value="question2">
+            <input type="hidden" name="points"  id="rings" value="">
+    <?php include '../inc/footer.php' ?>
+
+
 </body>
+
+<script src="/kidz-quiz/js/validation2.js"></script>
 
 </html>
