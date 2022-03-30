@@ -17,7 +17,7 @@ if ($_POST["answer"] == 3) {
     <?php include 'inc/header.php' ?>
   
     <main>
-        <img class="question-image" src="img/Trophy Women World Cup.jpg" alt="">
+        <img class="question-image" src="img/q13-image.jpg" alt="">
       
         <div class="title">QUESTION 13
         </div>

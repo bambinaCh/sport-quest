@@ -63,7 +63,7 @@ footer img {
 }
 
 .bg-olympics {
-    background-image: url(/img/olympics-bg.png);
+    background-image: url(/img/olympics2-bg.png);
 }
 
 .bg-football {
@@ -306,11 +306,11 @@ form {
 
 /* IMAGES*/
 .question-image {
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 20px;
-    max-width: 80%;
-    min-width: 80%;
+    max-width: 90%;
+    min-width: 90%;
 }
 
 

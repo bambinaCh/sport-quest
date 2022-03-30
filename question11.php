@@ -16,7 +16,7 @@ if ($_POST["answer"] == 3) {
     <main>
 
         
-        <img class="question-image" src="img/ingoq3.jpg">
+        <img class="question-image" src="img/q11-image.jpg">
         
 
         <div class="title">

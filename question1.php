@@ -15,7 +15,7 @@ $_SESSION["score"] = 0;
     <?php include 'inc/header.php'  ?>
     <!-- FILL WITH CONTAIN -->
     <main>
-        <img class="question-image" src="img/greece.jpeg" alt="">
+        <img class="question-image" src="img/q1-image.jpg" alt="">
         <div class="title">
             <p>Question 1
         </div>

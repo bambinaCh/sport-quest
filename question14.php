@@ -18,7 +18,7 @@ if ($_POST["answer"] == 3) {
     <?php include 'inc/header.php' ?>
     
     <main>
-        <img class="question-image" src="img/Hungergames.jpg" alt="">
+        <img class="question-image" src="img/q14-image.jpg" alt="">
         
         <div class="title">QUESTION 14
         </div>

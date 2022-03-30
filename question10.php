@@ -16,7 +16,7 @@ if ($_POST["answer"] == 2) {
     <main>
 
         
-        <img class="question-image" src="img/ingoq2.jpg">
+        <img class="question-image" src="img/q10-image.jpg">
         
 
         <div class="title">
