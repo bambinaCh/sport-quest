@@ -6,3 +6,4 @@ Mock-up design: https://design.penpot.app/#/workspace/329ed680-ab70-11ec-a0b4-76
 
 Mock-up LOGO: https://design.penpot.app/#/workspace/329ed680-ab70-11ec-a0b4-765163de8d2d/9b9fc7f0-ab86-11ec-a0b4-765163de8d2d?page-id=9b9fc7f1-ab86-11ec-a0b4-765163de8d2d
 
+Team Contract: https://tree.taiga.io/project/bambinach-sportquest-quiz/wiki/team-contract
