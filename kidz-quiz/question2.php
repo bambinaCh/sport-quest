@@ -36,6 +36,8 @@ $_SESSION["points-1"] = $_POST["points"];
 
             <p id="validation-warning" class="warning"></p>
 
+            <input type="hidden" name="points" id="rings" value="0">
+
             <button type="submit" class="next-button">Next</button><div id="bugger" class="warning"></div>
         </form>
 
