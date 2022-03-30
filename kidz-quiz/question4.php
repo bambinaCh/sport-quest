@@ -11,7 +11,7 @@ $_SESSION["points-3"] = $_POST["points"];
 <body class="bg-kids">
     <?php include '../inc/header.php'  ?>
     <main>
-        <img class="question-image" src="../img/q4-kid-image-soccer" alt="">
+        <img class="question-image" src="../img/q4-kid-image-soccer.jpg" alt="">
         <div class="title">Question 4</div>
         <div class="question">How long does a soccer game last?</div>
         <form class="form" action="question5.php" method="post" id="aForm">

@@ -23,11 +23,11 @@ $_SESSION["points-4"] = $_POST["points"];
         How long is the shortest sprint race that Usain Bolt won?
         </div>
 
-        <form action="/kidz-quiz/question2.php" method="post" onsubmit="return validateNumber();">
+        <form action="/kidz-quiz/result.php" method="post" onsubmit="return validateNumber1();">
 
             <input type="number" name="number-text" id="number-text" class="number-imput"><br>
             <input type="hidden" name="lastPageID" value="question-1">
-            <input type="hidden" name="points"  id="rings" value="">
+            <input type="hidden" name="points"  id="meters" value="">
 
             <p id="validation-warning" class="warning"></p>
 
