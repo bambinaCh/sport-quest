@@ -20,6 +20,10 @@ function doWork(ev) {
         document.getElementById("bugger").innerText = "Choose exactly one!"
         ev.preventDefault();
     }
+
+    if (checkboxes[0].id === "cb1") {
+        document.getElementById("tally").value = 1;
+    }
 }
 
 document.getElementById("aForm").addEventListener("submit", doWork);
