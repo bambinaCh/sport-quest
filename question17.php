@@ -17,7 +17,7 @@ if ($_POST["answer"] == 2) {
     <?php include 'inc/header.php'  ?>
     <!-- FILL WITH CONTAIN -->
     <main>
-    <img class="question-image" src="img/medals.jpeg" alt="">
+    <img class="question-image" src="img/q17-image.jpg" alt="">
         <div class="title">
             <p>Question 17
         </div>
