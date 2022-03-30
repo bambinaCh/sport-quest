@@ -8,23 +8,19 @@
     src: url('../fonts/baby-monsta/BabyMonsta-lgGgX.ttf');
 }
 
-
-
-/* BODY */
 body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: rgba(160, 170, 100, 0.863);
     background-position: center;
+    background-size: cover;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     min-height: 100vh;
-
 }
-/*HEADER*/
+
 header{
     height: 60px;
-    margin-bottom: 20px;
 }
 
 main {
@@ -33,58 +29,57 @@ main {
     display: flex;
     flex-direction: column;
     align-content: center;
+    margin: 20px;
+}
 
+footer {
+    font-size: 1.5rem;
+    font-weight: bold;
+    word-spacing: 0.2rem;
+    color: rgba(0, 0, 0, 0.952);
+    background-color: #00000050;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer img{
+   height: 40px ;
 }
 
 /*BACKGROUND PICTURES*/
 
 .bg-basketball {
     background-image: url(/img/basketball-bg.png);
-    background-size: cover;
-
 }
 
 .bg-boxing {
     background-image: url(/img/boxing-bg.png);
-    background-size: cover;
-
 }
 
 .bg-canada {
     background-image: url(/img/canada-bg.png);
-    background-size: cover;
-
 }
 
 .bg-olympics {
     background-image: url(/img/olympics-bg.png);
-    background-size: cover;
-
 }
 
 .bg-football {
     background-image: url(/img/football-bg.png);
-    background-size: cover;
-
-
 }
 
 .bg-golf {
     background-image: url(/img/golf-bg.png);
-    background-size: cover;
-
 }
 
 .bg-darts {
     background-image: url(/img/darts-bg.png);
-    background-size: cover;
-
 }
 
 .bg-tennis {
     background-image: url(/img/tennis-bg.png);
-    background-size: cover;
-
 }
 
 /* NAV BAR */
@@ -251,26 +246,6 @@ main {
     background-color: #a504aa;
 }
 
-
-/* FOOTER */
-footer {
-    font-size: 1.5rem;
-    font-weight: bold;
-    word-spacing: 0.2rem;
-    color: rgba(0, 0, 0, 0.952);
-    background-color: #00000050;
-    margin-top: auto;
-    height: 60px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-
-}
-
-footer img{
-   height: 40px ;
-}
 
 /*RESULT*/
 .title-rp {
