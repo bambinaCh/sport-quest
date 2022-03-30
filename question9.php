@@ -17,7 +17,7 @@ if ($_POST["answer"] == 2) {
 
 
         
-        <img class="question-image" src="img/q9-image.jpg">
+        <img class="question-image" src="img/q9-image-soccer-player.jpg">
         
 
         <div class="title">
