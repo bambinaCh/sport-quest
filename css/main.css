@@ -269,7 +269,6 @@ form {
     color: #a80aad;
     font-size: 1.5rem;
     font-family: ramabhadra;
-   
     letter-spacing: 1px;
     text-decoration: none;
     margin-bottom: 20px;
@@ -319,4 +318,5 @@ form {
     color: red;
     font-size: 1.5rem;
     font-weight: bold;
+    text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
 }
