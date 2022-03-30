@@ -11,7 +11,7 @@ $_SESSION["score"] = 0;
 <html lang="en">
 <?php include '../inc/head.php' ?>
 
-<body class="bg-">
+<body class="bg-kids">
     <?php include '../inc/header.php'  ?>
     <!-- FILL WITH CONTAIN -->
     <main>
@@ -20,18 +20,22 @@ $_SESSION["score"] = 0;
             <p>Question 1
         </div>
         <div class="question">
-        How many rings has the olympics symbol?
+            How many rings has the olympics symbol?
         </div>
 
-        <form class="form" action="question2.php" method="post">
+        <form action="/kidz-quiz/question2.php" method="post" onsubmit="return validateNumber();">
 
-        <input type="number" name="number-text" id="number-text" class="" style="max-width: 80px;"><br>
+            <input type="number" name="number-text" id="number-text" class="number-imput"><br>
+            <input type="hidden" name="lastPageID" value="question-1">
+            <p id="validation-warning" class="warning"></p>
 
+            <button type="submit" class="next-button">NEXT</button>
         </form>
 
     </main>
     <!-- END CONTENT -->
     <?php include '../inc/footer.php' ?>
 </body>
+<script src="/kidz-quiz/js/validation1.js"></script>
 
 </html>
