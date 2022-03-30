@@ -2,11 +2,11 @@
 session_start();
 
 $total = 5;
-$points = $_SESSION["points-1"]
-    + $_SESSION["points-2"]
-    + $_SESSION["points-3"]
-    + $_SESSION["points-4"]
-    + $_POST["points"];
+$points = (int)$_SESSION["points-1"]
+    + (int)$_SESSION["points-2"]
+    + (int)$_SESSION["points-3"]
+    + (int)$_SESSION["points-4"]
+    + (int)$_POST["points"];
 ?>
 
 <!--  THIS IS (_ralph_) PAGE -->
