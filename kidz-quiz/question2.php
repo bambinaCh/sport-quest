@@ -15,44 +15,24 @@ $_SESSION["score"] = 0;
        
     <main>
         <img class="question-image" src="img/greece.jpeg" alt="">
+        
         <div class="title">Question 2</div>
+        
         <div class="question">
         When an Olympic athlete wins first place, what color medal do they get?
         </div>
-}
+
+<form class="form" action="question2.php" method="post">
+
     <form id="butt1"><input type="radio" id= "butt1_Leather" value="Leather" checked>
-    <label for = "butt2" >No</label>
-    <input type="radio" id= "form1_yes" value="yes" onClick= exam()>
-    <label for = "form2_yes" >Yes</label>
+    <label for = "butt1_Leather" >Leather</label>
+    <form id="butt2"><input type="radio" id= "butt2_Gold" value="Gold" checked>
+    <label for = "butt2" >Gold</label>
+    <form id="butt3"><input type="radio" id= "butt3_Silver" value="Silver" checked>
+    <label for = "form3_no" >Silver</label>
+    <form id="butt4"><input type="radio" id= "butt4_Bronze" value="Bronze" checked>
+    <label for = "butt4" >Bronze</label>
     </form> 
-
-        <form class="form" action="question2.php" method="post">
-
-        <input type="number" name="number-text" id="number-text" class="" style="max-width= 80px;"><br> 
-        
-        function validateRadio(radioName) {
-    // 'radioButtons' ist eine Liste die einen bis mehrere Radio Buttons enthalten kann.
-    // Kann auch leer sein 🙂
-    let radioButtons = document.getElementsByName(radioName);
-
-    // Wir müssen die Liste von radioButtons nach dem gewählten Wert durchsuchen.
-    for (let i = 0; i < radioButtons.length; i++) {
-        let radioBtn = radioButtons[i]; // Wähle das 'i'-te Element aus der Liste aus.
-
-        if (radioBtn.checked == true) {
-            return true;
-        }
-    }
-
-    // Kein Radio-Button wurde angewählt.
-    setWarning("Bitte wähle eine Option.");
-    return false; // STOPP: Submit abbrechen und auf der Seite bleiben.
-}
-
-function setWarning(text) {
-    let warningElement = document.getElementById("validation-warning");
-    warningElement.innerText = text;
-}
 
 <form action="question2.php" method="post" onsubmit="return validateRadio('single-choice');">
 </form>
