@@ -2,17 +2,17 @@
 
 function validateRadio() {
 
-    let value = document.getElementById("radio").value;
+    let radios = document.querySelectorAll("input[type=radio]:checked").value;
 
-    if (value == "") {
+    if (radios.length !== 1) {
         setWarning("Please choose and click one answer!");
 
         return false;
     }
-    else if (value === "Gold") {
 
+    if (radios[0].id === "butt2_Gold"){
+    
         document.getElementsById("rings").value = 1;
-
     }
     else {
         document.getElementsById("rings").value = 0;
