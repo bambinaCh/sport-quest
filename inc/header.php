@@ -5,8 +5,8 @@
         <a href="/homepage.php"><img class="img-responsive" src="/img/LOGO-FAVICON.png" data-bs-hover-animate="pulse" alt="logo" width="48" height="48"></a>
         <?php
         $menuItems = array(
-            array("/question1.php", "Quiz"),
-            array("/kidz-quiz/question1.php", "Kidz Quiz"),
+            array("/question1.php", "QUIZ"),
+            array("/kidz-quiz/question1.php", "KIDZ QUIZ"),
 
         );
         foreach ($menuItems as $item) {
