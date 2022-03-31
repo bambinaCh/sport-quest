@@ -205,12 +205,14 @@ form {
     align-self: center;
 }
 
+
+ /*RADIO AND CHCKBOX ANSWER TEXT*/
 .answer-text {
     font-family: baby-monsta;
     color: rgb(255, 255, 255);
+    letter-spacing: 1.5px;
     text-shadow: -1.5px -1.5px 0 black, 1.5px -1.5px 0 black, -1.5px 1.5px 0 black, 1.5px 1.5px 0 black;
 }
-
 
 /* ANSWER BUTTONS*/
 .answer-button {
