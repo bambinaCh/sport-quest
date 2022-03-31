@@ -23,7 +23,7 @@
 
             <input type="number" name="number-text" id="number-text" class="number-imput"><br>
             <input type="hidden" name="lastPageID" value="question-1">
-            <input type="hidden" name="points"  id="rings" value="0">
+            <input type="hidden" name="points"  id="rings" value="">
 
             <p id="validation-warning" class="warning"></p>
 
