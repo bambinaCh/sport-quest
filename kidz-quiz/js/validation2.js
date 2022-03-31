@@ -12,10 +12,10 @@ function validateRadio() {
 
     if (radios[0].id === "butt2_Gold"){
     
-        document.getElementsById("rings").value = 1;
+        document.getElementById("rings").value = 1;
     }
     else {
-        document.getElementsById("rings").value = 0;
+        document.getElementById("rings").value = 0;
     }
 
 }
