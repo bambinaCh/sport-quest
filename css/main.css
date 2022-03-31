@@ -205,7 +205,11 @@ form {
     align-self: center;
 }
 
-
+.answer-text {
+    font-family: baby-monsta;
+    color: rgb(255, 255, 255);
+    text-shadow: -1.5px -1.5px 0 black, 1.5px -1.5px 0 black, -1.5px 1.5px 0 black, 1.5px 1.5px 0 black;
+}
 
 
 /* ANSWER BUTTONS*/
