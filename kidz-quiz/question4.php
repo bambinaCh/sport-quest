@@ -3,7 +3,7 @@ session_start();
 $_SESSION["points-3"] = $_POST["points"];
 ?>
 
-<!--  THIS IS (_ralph_) PAGE -->
+<!--  THIS IS (_ingo_) PAGE -->
 
 <!DOCTYPE html>
 <html lang="en">
@@ -17,15 +17,15 @@ $_SESSION["points-3"] = $_POST["points"];
         <form class="form" action="question5.php" method="post" id="aForm">
             <div>
                 <input type="checkbox" name="" id="cb1">
-                <label for="cb1">45 minutes</label>
+                <label class="answer-text" for="cb1">45 minutes</label>
             </div>
             <div>
                 <input type="checkbox" name="" id="cb2">
-                <label for="cb2">90 minutes</label>
+                <label class="answer-text" for="cb2">90 minutes</label>
             </div>
             <div>
                 <input type="checkbox" name="" id="cb3">
-                <label for="cb3">120 minutes</label>
+                <label class="answer-text" for="cb3">120 minutes</label>
             </div>
             <button type="submit" class="next-button">Next</button>
             <div id="bugger" class="warning"></div>
