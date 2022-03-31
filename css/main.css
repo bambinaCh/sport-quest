@@ -92,15 +92,22 @@ footer img {
     display: flex;
     background-color: #00000050;
     background-size: cover;
+    text-align: center;
+    align-items: center;
+}
+
+.topnav img {
+    float: left;
 }
 
 .topnav a {
-    float: left;
-    color: rgb(0, 0, 0);
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
     font-size: 17px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    text-align: center;
+    margin-left: 16px;
+    text-decoration: none;
+
 }
 
 .topnav a:hover {
@@ -206,7 +213,7 @@ form {
 }
 
 
- /*RADIO AND CHCKBOX ANSWER TEXT*/
+/*RADIO AND CHCKBOX ANSWER TEXT*/
 .answer-text {
     font-family: baby-monsta;
     color: rgb(255, 255, 255);
@@ -261,7 +268,7 @@ form {
 
 
 /*NEXT BUTTON*/
-.next-button{
+.next-button {
     text-align: center;
     width: 100%;
     background-color: rgb(214, 159, 6);
