@@ -103,6 +103,8 @@ footer img {
 .topnav a {
     font-size: 17px;
     color: rgb(0, 0, 0);
+    font-family: ramabhadra;
+    text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
     font-weight: bold;
     text-align: center;
     margin-left: 16px;
