@@ -15,7 +15,7 @@ $_SESSION["points-1"] = $_POST["points"];
 <?php include '../inc/header.php'?>
        
     <main>
-        <img class="question-image" src="../img/rings.jpg" alt="">
+        <img class="question-image" src="../img/medals.jpeg" alt="">
         
         <div class="title">Question 2</div>
         
