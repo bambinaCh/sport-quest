@@ -21,7 +21,7 @@ function doWork(ev) {
         ev.preventDefault();
     }
 
-    if (checkboxes[0].id === "cb1") {
+    if (checkboxes[0].id === "cb2") {
         document.getElementById("tally").value = 1;
     }
 }
