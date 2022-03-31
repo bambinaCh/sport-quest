@@ -25,14 +25,23 @@ $_SESSION["points-1"] = $_POST["points"];
 
         <form action="/kidz-quiz/question3.php" method="post" onsubmit="return validateRadio();">
 
-            <input type="radio" name="butt" id="butt1_Leather" value="Leather">
-            <label for="butt1_Leather" >Leather</label>
-            <input type="radio" name="butt" id="butt2_Gold" value="Gold">
-            <label for="butt2_Gold" >Gold</label>
-            <input type="radio" name="butt" id="butt3_Silver" value="Silver">
-            <label for="butt3_Silver" >Silver</label>
-            <input type="radio" name="butt" id="butt4_Bronze" value="Bronze">
-            <label for="butt4_Bronze" >Bronze</label>
+            <div>
+                <input type="radio" name="butt" id="butt1_Leather" value="Leather">
+                <label class="answer-text" for="butt1_Leather" >Leather</label>
+            </div>
+            <div>
+                <input type="radio" name="butt" id="butt2_Gold" value="Gold">
+                <label class="answer-text" for="butt2_Gold" >Gold</label>
+            </div>
+            
+            <div>
+                <input type="radio" name="butt" id="butt3_Silver" value="Silver">
+                <label class="answer-text" for="butt3_Silver" >Silver</label>
+            </div>
+            <div>
+                <input type="radio" name="butt" id="butt4_Bronze" value="Bronze">
+                <label class="answer-text" for="butt4_Bronze" >Bronze</label>
+            </div>
 
             <p id="validation-warning" class="warning"></p>
 

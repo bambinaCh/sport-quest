@@ -2,7 +2,7 @@
 
 function validateRadio() {
 
-    let radios = document.querySelectorAll("input[type=radio]:checked").value;
+    let radios = document.querySelectorAll("input[type=radio]:checked");
 
     if (radios.length !== 1) {
         setWarning("Please choose and click one answer!");
