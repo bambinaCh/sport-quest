@@ -13,11 +13,11 @@ function validateNumber() {
     }
     else if (value === "5") {
 
-        document.getElementsById("rings").value = 1;
+        document.getElementById("rings").value = 1;
 
     }
     else {
-        document.getElementsById("rings").value = 0;
+        document.getElementById("rings").value = 0;
     }
 
 }
@@ -34,11 +34,11 @@ function validateNumber1() {
     }
     else if (value === "100") {
 
-        document.getElementsById("meters").value = 1;
+        document.getElementById("meters").value = 1;
 
     }
     else {
-        document.getElementsById("meters").value = 0;
+        document.getElementById("meters").value = 0;
     }
 
 }
