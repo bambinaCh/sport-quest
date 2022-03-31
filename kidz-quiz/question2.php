@@ -43,7 +43,7 @@ $_SESSION["points-1"] = $_POST["points"];
                 <label class="answer-text" for="butt4_Bronze" >Bronze</label>
             </div>
 
-            <p id="validation-warning" class="warning"></p>
+            <div id="validation-warning" class="warning"></div>
 
             <input type="hidden" name="points" id="rings" value="0">
 

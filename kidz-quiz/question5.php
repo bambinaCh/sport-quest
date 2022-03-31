@@ -17,7 +17,7 @@ $_SESSION["points-4"] = $_POST["points"];
     <main>
         <img class="question-image" src="../img/q5-kid-image-bolt.jpg" alt="">
         <div class="title">
-            <p>Question 5
+            Question 5
         </div>
         <div class="question">
         How long is the shortest sprint race that Usain Bolt won?
@@ -25,11 +25,11 @@ $_SESSION["points-4"] = $_POST["points"];
 
         <form action="/kidz-quiz/result.php" method="post" onsubmit="return validateNumber1();">
 
-            <input type="number" name="number-text" id="number-text" class="number-imput"><br>
+            <input type="number" name="number-text" id="number-text" class="number-imput">
             <input type="hidden" name="lastPageID" value="question-5">
             <input type="hidden" name="points"  id="meters" value="">
 
-            <p id="validation-warning" class="warning"></p>
+            <div id="validation-warning" class="warning"></div>
 
             <button type="submit" class="next-button">NEXT</button>
         </form>

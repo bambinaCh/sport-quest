@@ -30,6 +30,7 @@ main {
     flex-direction: column;
     align-content: center;
     margin: 20px;
+    gap:20px;
 }
 
 footer {
@@ -50,8 +51,16 @@ footer img {
     margin-right: 10px;
 }
 
-/*BACKGROUND PICTURES*/
+form {
+    width: 100%;
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    gap: 20px;
+}
 
+/*BACKGROUND PICTURES*/
 .bg-basketball {
     background-image: url(/img/basketball-bg.png);
 }
@@ -111,7 +120,6 @@ footer img {
     text-align: center;
     margin-left: 16px;
     text-decoration: none;
-
 }
 
 .topnav a:hover {
@@ -123,7 +131,6 @@ footer img {
     background-color: #ffffff;
     color: white;
 }
-
 
 @media screen and (max-width: 600px) {
     .topnav .search-container {
@@ -144,9 +151,7 @@ footer img {
     }
 }
 
-
 /*BACKGROUND VIDEO */
-
 #myVideo {
     width: 100vw;
     height: 100vh;
@@ -159,69 +164,46 @@ footer img {
     z-index: -1;
 }
 
-
-
-/* HOMEPAGE */
-.banner {
-    align-items: center;
-    padding: 5%;
-    padding-top: 20%;
-}
-
-
 .text {
     font-size: 1.8em;
     text-align: center;
     font-family: baby-monsta;
     color: rgb(255, 255, 255);
     font-weight: bold;
+    line-height: 2rem;
     text-shadow: -1.5px -1.5px 0 black, 1.5px -1.5px 0 black, -1.5px 1.5px 0 black, 1.5px 1.5px 0 black;
-    padding: 5%;
-    padding-top: 10%;
-    padding-bottom: 10%;
 
 }
-
 
 /* QUESTION */
 .title {
     text-align: center;
     text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
-    padding: 0.4em;
-    padding-bottom: 0em;
+
     font-weight: bold;
     color: #fdfb93;
     font-size: 1.2rem;
     font-family: baby-monsta;
     letter-spacing: 1px;
-
 }
 
 .question {
     font-size: 1.5em;
     text-align: center;
     text-shadow: -1.5px -1.5px 0 black, 1.5px -1.5px 0 black, -1.5px 1.5px 0 black, 1.5px 1.5px 0 black;
-    padding: 0.5em;
-    padding-top: 0em;
+    line-height: 1.8rem;
     font-weight: bold;
     color: #ffffff;
     font-family: baby-monsta;
     letter-spacing: 1px;
 }
 
-form {
-    align-content: center;
-    display: flex;
-    flex-direction: column;
-    align-self: center;
-}
-
-
-/*RADIO AND CHCKBOX ANSWER TEXT*/
+/*RADIO AND CHECKBOX ANSWER TEXT*/
 .answer-text {
     font-family: baby-monsta;
     color: rgb(255, 255, 255);
     letter-spacing: 1.5px;
+    font-size: 1.2rem;
     text-shadow: -1.5px -1.5px 0 black, 1.5px -1.5px 0 black, -1.5px 1.5px 0 black, 1.5px 1.5px 0 black;
 }
 
@@ -232,30 +214,23 @@ form {
     background-color: rgb(214, 159, 6);
     border: none;
     border-radius: 0.8rem;
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-top: 3%;
-    padding-bottom: 3%;
+    padding: 10px;
     font-weight: bold;
     color: #ffffff;
     font-size: 1.5rem;
     font-family: ramabhadra;
     text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
     letter-spacing: 1px;
+    line-height: 1.5rem;
     text-decoration: none;
-    margin-bottom: 20px;
-
-
 }
 
 .answer1 {
     background-color: #d68c2c;
-
 }
 
 .answer2 {
     background-color: rgb(35, 180, 180);
-
 }
 
 .answer3 {
@@ -270,34 +245,25 @@ form {
     width: 100%;
 }
 
-
-/*NEXT BUTTON*/
 .next-button {
     text-align: center;
     width: 100%;
     background-color: rgb(214, 159, 6);
     border: none;
     border-radius: 0.8rem;
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-top: 3%;
-    padding-bottom: 3%;
+    padding: 10px;
     font-weight: bold;
     color: #a80aad;
     font-size: 1.5rem;
     font-family: ramabhadra;
     letter-spacing: 1px;
     text-decoration: none;
-    margin-bottom: 20px;
 }
-
-
 
 /*RESULT*/
 .title-rp {
     text-align: center;
     text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
-    margin-top: 150px;
     font-weight: bold;
     color: #fdfb93;
     font-size: 1.8rem;
@@ -316,21 +282,6 @@ form {
     letter-spacing: 1px;
 }
 
-
-
-
-
-/* IMAGES*/
-.question-image {
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 20px;
-    max-width: 90%;
-    min-width: 90%;
-}
-
-
-/* WARNING */
 .warning {
     color: red;
     font-size: 1.5rem;

@@ -17,7 +17,7 @@ $_SESSION["score"] = 0;
     <main>
         <img class="question-image" src="img/q1-image-olympics.jpg" alt="">
         <div class="title">
-            <p>Question 1
+            Question 1
         </div>
         <div class="question">
             Where did the first ancient Olympic games take place?
