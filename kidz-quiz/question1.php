@@ -13,7 +13,7 @@
     <main>
         <img class="question-image" src="../img/rings.jpg" alt="">
         <div class="title">
-            <p>Question 1
+            Question 1
         </div>
         <div class="question">
             How many rings has the olympics symbol?
@@ -21,11 +21,11 @@
 
         <form action="/kidz-quiz/question2.php" method="post" onsubmit="return validateNumber();">
 
-            <input type="number" name="number-text" id="number-text" class="number-imput"><br>
+            <input type="number" name="number-text" id="number-text" class="number-imput">
             <input type="hidden" name="lastPageID" value="question-1">
             <input type="hidden" name="points"  id="rings" value="">
 
-            <p id="validation-warning" class="warning"></p>
+            <div id="validation-warning" class="warning"></div>
 
             <button type="submit" class="next-button">NEXT</button>
         </form>
