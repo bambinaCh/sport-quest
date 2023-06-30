@@ -8,8 +8,4 @@ Mock-up LOGO: https://design.penpot.app/#/workspace/329ed680-ab70-11ec-a0b4-7651
 
 Team Contract: https://tree.taiga.io/project/bambinach-sportquest-quiz/wiki/team-contract
 
-https://trello.com/sportquest2
-
-https://drive.google.com/file/d/1rUMVKr5fP-mrA8aOsICqpnEnq_0YKBOA/view?usp=sharing
-
-https://tree.taiga.io/project/bambinach-sportquest-quiz/timeline
+Project management tool: https://tree.taiga.io/project/bambinach-sportquest-quiz/timeline
